@@ -4,7 +4,7 @@
 # bash-Skript for downloading large photos from twitter-pages.
 # usage: ~$ gibbeBild -a [twitter-URL]
 #        ~$ gibbeBild -u [twitter-URL]
-# ... downloads photos directly into the folder the skript is in.
+# ... downloads photos directly into the home-folder.
 
 while getopts a:u: options 2>/dev/null; do # error > /dev/null
         case $options in
