@@ -14,6 +14,7 @@ Needs curl, wget, sed and cut, so please install them.
 Usage
 -----
 First, run "~$ chmod +x gibbeBild.sh".
+
 In the shell, type "~$ ./gibbeBild.sh -a [twitter-URL]" or  "~$ ./gibbeBild.sh -u [twitter-URL]" from the directory you stored gibbeBild.sh.
 
 If you have the script deep within a folder-history, consider adding "alias gibbeBild='[path/to/script]/gibbeBild.sh'" to your .bashrc, so you can run it from anywhere in your shell quickly.
