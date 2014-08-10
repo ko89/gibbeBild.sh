@@ -15,7 +15,7 @@ gibbeBild.sh does exactly that.
 Supported Platforms
 -------------------
 
-Should work under all *nix-Environments.
+Should work under all Unix-Environments.
 Needs curl, wget, sed and cut, so please install these beforehand.
 
 
