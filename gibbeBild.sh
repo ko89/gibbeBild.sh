@@ -17,5 +17,5 @@ done
 shift $(( OPTIND - 1 )) # important for parameters!
 
 echo "twitterurl: $url"
-address="https:$(curl $url | grep 'https://pbs.twimg.com/media/' | sed q | cut -d':' -f 2):large"
+address="https:$(curl $url | grep 'https://pbs.twimg.com/media/' | sed q | cut -d':' -f 2):orig"
 wget $address
