@@ -5,6 +5,7 @@
 # Run "$ chmod +x gibbeBild.sh" first.
 # Usage: $ ./gibbeBild -u [twitter-URL] -s [small/large/orig(=default)]
 # ... downloads pictures directly into the home-folder.
+# Todo: implement folder structure for auto-sorting.
 
 size=":orig"
 while getopts u:s: options 2>/dev/null; do # error > /dev/null
